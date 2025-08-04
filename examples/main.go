@@ -52,7 +52,6 @@ func main() {
 		}
 	}()
 
-	// Обробка кожного повідомлення
 	for msg := range messages {
 		if msg == nil {
 			continue
